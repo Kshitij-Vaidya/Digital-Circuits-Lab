@@ -1,0 +1,131 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do 4_Bit_Adder_Subtractor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:49 on Aug 16,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Gates
+# -- Compiling entity INVERTER
+# -- Compiling architecture Equations of INVERTER
+# -- Compiling entity AND_2
+# -- Compiling architecture Equations of AND_2
+# -- Compiling entity NAND_2
+# -- Compiling architecture Equations of NAND_2
+# -- Compiling entity OR_2
+# -- Compiling architecture Equations of OR_2
+# -- Compiling entity NOR_2
+# -- Compiling architecture Equations of NOR_2
+# -- Compiling entity XOR_2
+# -- Compiling architecture Equations of XOR_2
+# -- Compiling entity XNOR_2
+# -- Compiling architecture Equations of XNOR_2
+# End time: 14:08:49 on Aug 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:49 on Aug 16,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 14:08:49 on Aug 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:50 on Aug 16,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling package Gates_NAND
+# -- Compiling entity OR_GATE
+# -- Compiling architecture Struct of OR_GATE
+# -- Compiling entity XOR_GATE
+# -- Compiling architecture Struct1 of XOR_GATE
+# -- Compiling entity AND_GATE
+# -- Compiling architecture Struct of AND_GATE
+# End time: 14:08:50 on Aug 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:50 on Aug 16,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling package Adders
+# -- Loading package Gates_NAND
+# -- Compiling entity HALF_ADDER
+# -- Compiling architecture Struct of HALF_ADDER
+# -- Loading package Adders
+# -- Compiling entity FULL_ADDER
+# -- Compiling architecture Struct of FULL_ADDER
+# -- Compiling entity ADDER_SUBTRACTOR
+# -- Compiling architecture Struct of ADDER_SUBTRACTOR
+# End time: 14:08:50 on Aug 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:50 on Aug 16,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 14:08:50 on Aug 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 14:08:52 on Aug 16,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading work.gates
+# Loading work.gates_nand
+# Loading work.adders
+# Loading work.adder_subtractor(struct)
+# Loading work.xor_gate(struct1)
+# Loading work.nand_2(equations)
+# Loading work.full_adder(struct)
+# Loading work.half_adder(struct)
+# Loading work.and_gate(struct)
+# Loading work.or_gate(struct)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 9, found 0.
+#    Time: 9728 ns  Iteration: 0  Instance: /testbench
+# ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 5, found 0.
+#    Time: 9728 ns  Iteration: 0  Instance: /testbench
+# ** Error: (vsim-3549) TEXTIO procedure READ(BIT_VECTOR) : Wrong BIT_VECTOR length. Expected 5, found 0.
+#    Time: 9728 ns  Iteration: 0  Instance: /testbench
+# ** Note: SUCCESS, all tests passed.
+#    Time: 9747 ns  Iteration: 0  Instance: /testbench
+# End time: 14:10:26 on Aug 16,2023, Elapsed time: 0:01:34
+# Errors: 3, Warnings: 0

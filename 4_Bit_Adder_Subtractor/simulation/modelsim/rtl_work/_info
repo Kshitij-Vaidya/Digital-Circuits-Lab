@@ -1,0 +1,682 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/simulation/modelsim
+Eadder_subtractor
+Z1 w1691913392
+Z2 DPx4 work 6 adders 0 22 8jM`<7@c`jP8We=^?_jkG2
+Z3 DPx4 work 10 gates_nand 0 22 X5:Uh8ZH>8nPo228fVaH;1
+Z4 DPx4 work 5 gates 0 22 K0TRKAKK]OLNC7<HKQBg`2
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl
+Z8 FC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl
+l0
+L63
+V>8BXS7=ZK]F?^kHFIe_UV1
+!s100 2J2]gRUYTMRG^c=TIhm@b3
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1692175130
+!i10b 1
+Z11 !s108 1692175130.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl|
+Z13 !s107 C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/4Bit_Adder_Subtractor.vhdl|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astruct
+R2
+R3
+R4
+R5
+R6
+DEx4 work 16 adder_subtractor 0 22 >8BXS7=ZK]F?^kHFIe_UV1
+l69
+L67
+VlB`DlL?mL6G6Jg6`_Q8k13
+!s100 caeF^Ncj3E;af3DRPIEMz0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Padders
+R4
+R5
+R6
+R1
+R0
+R7
+R8
+l0
+L7
+V8jM`<7@c`jP8We=^?_jkG2
+!s100 UUizXnGbVD5H8fQkjB[430
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eand_2
+Z16 w1691909659
+R5
+R6
+R0
+Z17 8C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl
+Z18 FC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl
+l0
+L53
+VU7DI`Tzl@EfAQ?4z53E2F2
+!s100 1`nWBgISBZCVoBKm`L3TM3
+R9
+31
+Z19 !s110 1692175129
+!i10b 1
+Z20 !s108 1692175129.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl|
+Z22 !s107 C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates.vhdl|
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 and_2 0 22 U7DI`Tzl@EfAQ?4z53E2F2
+l58
+L57
+Vlhgfe[LY0eM?e_R:VHaZ:1
+!s100 6Ea@T?V>e39O6cgPlk<iS0
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Eand_gate
+Z23 w1691577019
+R4
+R5
+R6
+R0
+Z24 8C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl
+Z25 FC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl
+l0
+L64
+V]z?RE3JLbQI:?2^>Sg8Bh3
+!s100 WTbZ5@=V52e_TfhzQGeU[2
+R9
+31
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl|
+Z27 !s107 C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Gates_NAND.vhdl|
+!i113 1
+R14
+R15
+Astruct
+R4
+R5
+R6
+DEx4 work 8 and_gate 0 22 ]z?RE3JLbQI:?2^>Sg8Bh3
+l70
+L68
+VaYU=CcGfX=J;g5fM<0X4L0
+!s100 b`IT1a^iTE3<V<MAiFPVK1
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Edut
+Z28 w1691913219
+R5
+R6
+R0
+Z29 8C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl
+Z30 FC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl
+l0
+L7
+VP2fV[PY2KFzH@BKX`<Nci2
+!s100 eF81LO4ig<n>1oaXT@c^U1
+R9
+31
+R19
+!i10b 1
+R20
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl|
+Z32 !s107 C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/DUT.vhdl|
+!i113 1
+R14
+R15
+Adutwrap
+R5
+R6
+DEx4 work 3 dut 0 22 P2fV[PY2KFzH@BKX`<Nci2
+l17
+L12
+Vg6FX;6BbknKn[3zOZXkOQ3
+!s100 CR3fPNlJZjZd1hcDC5oPM1
+R9
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R14
+R15
+Efull_adder
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L42
+VMYgiIKI4X>2l0Y5H_NJU80
+!s100 RR<kJ@O_PezehCRm[0kMe2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Astruct
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 full_adder 0 22 MYgiIKI4X>2l0Y5H_NJU80
+l48
+L46
+V0[Kl><17Pfm8n?]1;^IS=0
+!s100 ]kE]o=CN`YSQSfcA;GK]L0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Pgates
+R5
+R6
+R16
+R0
+R17
+R18
+l0
+L7
+VK0TRKAKK]OLNC7<HKQBg`2
+!s100 m_NQeK:2MYzgPPA8E@MmE3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Pgates_nand
+R4
+R5
+R6
+R23
+R0
+R24
+R25
+l0
+L6
+VX5:Uh8ZH>8nPo228fVaH;1
+!s100 0k1a3:_`ci<W7=0`IR4zz0
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Ehalf_adder
+R1
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L24
+Vi5<SQg8PT8@^An3dkAz@L0
+!s100 I_5QGM6kFbOXkEoeeZ[6]1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 10 half_adder 0 22 i5<SQg8PT8@^An3dkAz@L0
+l29
+L28
+VP`V[8eAbk]Oi7X8fh<XHO3
+!s100 >JAZM<cKPnPV5FiOGfWjX3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Einverter
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L41
+V82BXV;Uza[l3mE]`8B<HJ0
+!s100 dFc@GWJO@nF57X0IXFVfh0
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 8 inverter 0 22 82BXV;Uza[l3mE]`8B<HJ0
+l46
+L45
+V4]gW5EV5;RT@9C;Pga@SA0
+!s100 [DD^:ihbY=VNQeLiKKX_R1
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Enand_2
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L64
+VS^YD8?>b_]W^^dkQa>_3m2
+!s100 S;kgn2U384cOg4>1Kcdn<2
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 6 nand_2 0 22 S^YD8?>b_]W^^dkQa>_3m2
+l69
+L68
+VS]`6`a7Bz3gbaB=WX@WdM2
+!s100 EBK=7IM2m_0=gIZGM@F7H1
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Enor_2
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L86
+V`A=6DP8fY`aBzcQ@Hgc?S1
+!s100 hCNF9lV5T>8fg2MR^]6f^0
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 nor_2 0 22 `A=6DP8fY`aBzcQ@Hgc?S1
+l91
+L90
+VIJ=]C?8]dETGzmXBGe8in2
+!s100 iWUJUdMb8DJi]m^=42G9F3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Eor_2
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L75
+Ve?I6M>DO0lb4QOFDA10zP2
+!s100 _]<JbSG1DCI^d;kKCeeO:3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 4 or_2 0 22 e?I6M>DO0lb4QOFDA10zP2
+l80
+L79
+V35?1APMW04D0M8BcdBhJ53
+!s100 kX9QLgDQM=e4dN7zDYk6o2
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Eor_gate
+R23
+R4
+R5
+R6
+R0
+R24
+R25
+l0
+L26
+VJTGLkDhJ6DW05F59O?bg00
+!s100 >LP2P`4PgmiY]NjLVM@HX2
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Astruct
+R4
+R5
+R6
+DEx4 work 7 or_gate 0 22 JTGLkDhJ6DW05F59O?bg00
+l32
+L30
+V5g`ABgnS[AZTGf]33H2X=3
+!s100 ^mP7Om_gTR`G<O>>>Q2kM1
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Etestbench
+Z33 w1691909520
+R6
+R5
+R0
+Z34 8C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl
+Z35 FC:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R9
+31
+R10
+!i10b 1
+R11
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl|
+Z37 !s107 C:/intelFPGA_lite/18.1/EE214_LabWork/Lab_1/4_Bit_Adder_Subtractor/Testbench.vhdl|
+!i113 1
+R14
+R15
+Abehave
+R6
+R5
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+Vz;:9g1RK7DNYj]4koIEmf2
+!s100 kW<kNhJhFo9iXg]em97I71
+R9
+31
+R10
+!i10b 1
+R11
+R36
+R37
+!i113 1
+R14
+R15
+Exnor_2
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L109
+VLHIUEA1`23`S5JTPo4JYA2
+!s100 M7SmBC<JLShUJ=5Tb^BGR1
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 6 xnor_2 0 22 LHIUEA1`23`S5JTPo4JYA2
+l114
+L113
+V]AR[iEm:1Y`=`f78Ab8?A2
+!s100 2L8]1Q4cBgn^[7D^6oj0;3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Exor_2
+R16
+R5
+R6
+R0
+R17
+R18
+l0
+L98
+VV2P2KWfUW5e1Z=NMXBDJ;0
+!s100 DUe=@W;GH8KgEREMWIRML1
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 xor_2 0 22 V2P2KWfUW5e1Z=NMXBDJ;0
+l103
+L102
+VQUFBaT6OJ>c<=2In4b:>M1
+!s100 _g>6CYjRMmc7O[`k^N;co3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Exor_gate
+R23
+R4
+R5
+R6
+R0
+R24
+R25
+l0
+L45
+V<b=KKnEcGaTnOR87DPkY@3
+!s100 zT@a3jVk@0GkS5VbQ@Yb[2
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Astruct1
+R4
+R5
+R6
+DEx4 work 8 xor_gate 0 22 <b=KKnEcGaTnOR87DPkY@3
+l51
+L49
+V0IHL2S41Q]gYXVUV?[a3V2
+!s100 _oV;6EA@_z6Q9CNof>]Lb0
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
